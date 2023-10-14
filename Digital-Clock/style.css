@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    height: 100vh;
+    background-color: aliceblue;
+}
+h1{
+    margin-bottom: 2rem;
+}
+.container{
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+#time{
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 2rem;
+}
