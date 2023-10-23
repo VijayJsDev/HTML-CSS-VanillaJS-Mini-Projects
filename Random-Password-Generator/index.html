@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Password Generator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Random Password Generator</h1>
+        <input type="text"  id="inputField" disabled><br>
+        <div class="drag">
+            <input type="range" min="10" max="30" value='10' id="dragSlider"><br>
+            <span id="sliderValueShow"></span>
+        </div>
+
+        <div class="row">
+            <label for="">Include Uppercase Characters (A-Z)</label>
+           <input type="checkbox" id="upperCase" checked><br>
+        </div>
+        
+        <div class="row">
+            <label for="">Include Lowercase Characters (a-z)</label>
+            <input type="checkbox" id="lowerCase"><br></div>
+        <div class="row">
+            <label for="">Include Numbers (0-9)</label>
+            <input type="checkbox" id="numbers"><br>
+        </div>
+        <div class="row">
+            <label for="">Include Symbols(/-@)</label>
+            <input type="checkbox" id="symbols"><br>
+        </div>
+        <button id="btn">Generate Password</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
