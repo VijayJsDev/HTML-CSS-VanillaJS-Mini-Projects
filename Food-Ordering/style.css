@@ -38,7 +38,7 @@ header ul li:hover{
     cursor: pointer;
 }
 main img{
-    width: 100%;
+    width: 80%;
 }
 #burgerImg{
     width: 30%;
@@ -59,7 +59,7 @@ main img{
     background-color: rgb(58, 162, 58);
     color: white;
     border-radius: 10%;
-    width: 6rem;
+    width: 3rem;
     height: 2rem;
 }
 .product button:hover{

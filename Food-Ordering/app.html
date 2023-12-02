@@ -13,7 +13,7 @@
             <li><img  src="images//location-crosshairs-solid.svg" alt="">Locate Store</li>
             <li><img src="images/phone-solid.svg" alt="">Contact</li>
             <li><img src="images/address-card-regular.svg" alt="">About Us</li>
-            <img src="images/shopping-cart-solid.svg" alt="">
+            <li><img src="images/shopping-cart-solid.svg" alt=""><span id="cartValue"></span></li>
         </ul>
     </header>
     <main>
@@ -23,22 +23,29 @@
                 <img src="images/burger.jpg" id="burgerImg" alt="">
                 <h3>Burger</h3>
                 <h6 style="text-decoration: line-through;">$19.99</h6>
-                <h4>$12.99</h4>
-                <button>Add To Cart</button>
+                <h4>Price:$<span id="price">14.99</span></h4>
+                <div class="buttons">
+                    <button onclick="incrementHandler()">+</button><button onclick="decrementHandler()">-</button>
+                </div>
+                
             </div>
             <div class="product">
                 <img src="images/pizza.jpg" id="pizzaImg" alt="">
                 <h3>Pizza</h3>
                 <h6 style="text-decoration: line-through;">$14.99</h6>
-                <h4>$9.99</h4>
-                <button>Add To Cart</button>
+                <h4>Price:$<span id="price">9.99</span></h4>
+                <div class="buttons">
+                    <button onclick="incrementHandler()">+</button><button onclick="decrementHandler()">-</button>
+                </div>
             </div>
             <div class="product">
                 <img src="images/coke.jpg" id="cokeImg" alt="">
                 <h3>Coke</h3>
                 <h6 style="text-decoration: line-through;">$9.99</h6>
-                <h4>$4.99</h4>
-                <button>Add To Cart</button>
+                <h4>Price:$<span id="price">4.99</span></h4>
+                <div class="buttons">
+                    <button onclick="incrementHandler()">+</button><button onclick="decrementHandler()">-</button>
+                </div>
             </div>
         </div>
         <div style="text-align: center; ">
