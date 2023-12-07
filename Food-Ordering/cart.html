@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(242, 247, 245);
+}
+header h1{
+    margin: 1rem;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header h1:hover{
+    background-color: yellow;
+    color: green;
+    cursor: pointer;
+}
+header ul{
+    
+}
+header ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 1.3rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    
+}
+header ul li:hover{
+    background-color: yellow;
+    color: green;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.cartBox{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin: 1rem;
+    width: 100%;
+    height: 40rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    background-color:rgb(182, 128, 59) ;
+    color:white;
+}
+.row{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+    </style>
+    <title>Foodway</title>
+</head>
+<body>
+    <header>
+        <h1><img src="images/burger-solid.svg" alt="" style="height: 25px;"><a href="app.html" style="text-decoration: none;">FoodWay</a></h1>
+        <ul>
+            <li><img  src="images//location-crosshairs-solid.svg" alt="">Locate Store</li>
+            <li><img src="images/phone-solid.svg" alt="">Contact</li>
+            <li><img src="images/address-card-regular.svg" alt="">About Us</li>
+            <li></li>
+        </ul>
+    </header>
+    <!-- <div id="cartItems">
+        <h1>Your Shopping Cart</h1>
+        <div class="row">
+            <p id="itemList">Item</p><hr>
+            <p id="priceList">Price</p><hr>
+            <p id="qtyList">Quantity</p><hr>
+            <p id="totalList">Total</p><hr>
+        </div>
+    </div> -->
+    <script src="script.js"></script>
+</body>
+</html>

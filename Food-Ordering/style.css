@@ -38,11 +38,10 @@ header ul li:hover{
     cursor: pointer;
 }
 main img{
-    width: 80%;
+    width: 100%;
 }
 #burgerImg{
     width: 30%;
-
 }
 #pizzaImg{
     width: 30%;
@@ -52,7 +51,7 @@ main img{
 }
 .product{
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid rgb(204, 190, 190);
     border-radius: 10%;
 }
 .product button{
@@ -68,4 +67,27 @@ main img{
 }
 .products{
     display: flex;  
+}
+#cartButtonDiv{
+    display: flex;
+    justify-content: center;
+}
+#cartButton{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    border: 1px solid aqua;
+    background-color: rgb(124, 173, 45);
+    color: #380429;
+    width: 6rem;
+    height: 4rem;
+}
+#cartValue{
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(238, 245, 238)
+}
+#cartItems{
+    background-color: antiquewhite;
+    text-transform: uppercase;
 }
